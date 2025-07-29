@@ -1,0 +1,1 @@
+printf("abc // not comment"); // real commemt

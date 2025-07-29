@@ -1,0 +1,9 @@
+1. function vs function-like macro
+	- Execution time, size of code
+	- Debug ability
+	- parameter flexble
+	- different phase
+	- address
+
+2. inline function vs function-like macro
+	- 

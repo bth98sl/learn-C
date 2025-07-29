@@ -1,0 +1,29 @@
+Character Read   | Word Length (`len`) | State (`IN`/`OUT`) | Stored in `count[]`? 
+  ----------------+---------------------+--------------------+-------------------
+   'H'           | 1                   | IN                 | No
+   'e'           | 2                   | IN                 | No
+   'l'           | 3                   | IN                 | No
+   'l'           | 4                   | IN                 | No
+   'o'           | 5                   | IN                 | No
+   ' ' (space)   | 0 (reset)           | OUT                | count[5]++
+   'w'           | 1                   | IN                 | No
+   'o'           | 2                   | IN                 | No
+   'r'           | 3                   | IN                 | No
+   'l'           | 4                   | IN                 | No
+   'd'           | 5                   | IN                 | No
+   ' ' (space)   | 0 (reset)           | OUT                | count[5]++
+   't'           | 1                   | IN                 | No
+   'h'           | 2                   | IN                 | No
+   'i'           | 3                   | IN                 | No
+   's'           | 4                   | IN                 | No
+   ' ' (space)   | 0 (reset)           | OUT                | count[4]++
+   'i'           | 1                   | IN                 | No
+   's'           | 2                   | IN                 | No
+   ' ' (space)   | 0 (reset)           | OUT                | count[2]++
+   'a'           | 1                   | IN                 | No
+   ' ' (space)   | 0 (reset)           | OUT                | count[1]++
+   't'           | 1                   | IN                 | No
+   'e'           | 2                   | IN                 | No
+   's'           | 3                   | IN                 | No
+   't'           | 4                   | IN                 | No
+   EOF           | 0                   | OUT                | count[4]++
